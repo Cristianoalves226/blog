@@ -1,0 +1,23 @@
+{
+    "name": "cristiano/projetophp",
+    "description": "curso de php8",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "sistema\\": "sistema/"
+        },
+        "files":[
+            "sistema/configuracao.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Cristiano Alves"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pecee/simple-router": "dev-master",
+        "twig/twig": "^3.0"
+    }
+}
